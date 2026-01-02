@@ -21,6 +21,7 @@ def setup():
 def test(driver):
     watch=[720,876,902,945,978,1020,1050,1110,1200,1230,1300,1400,1500,1600]
     watch_time=random.choice(watch)
+    print(f"⏱️ Watching video for {watch_time} seconds...")
     time.sleep(watch_time)
 
 # ===== Smooth Scrolling =====
