@@ -15,11 +15,11 @@ Gif="gif"        # number of processing cycles per account
 def setup():
     """Create a browser and load cookies for the given account"""
     driver = Driver(uc=True)
-    driver.get("https://youtu.be/qI5mTOD-or0?si=n-9fzNKvLdTYJgAG")
+    driver.get("https://www.effectivegatecpm.com/hyx3n510?key=ee1597361fcece992aee110b33e3e35e")
     time.sleep(2)
     return driver
 def test(driver):
-    watch=[720,876,902,945,978,1020,1050,1110,1200,1230,1300,1400,1500,1600]
+    watch=[10,20,30,40,50,60]
     watch_time=random.choice(watch)
     print(f"⏱️ Watching video for {watch_time} seconds...")
     time.sleep(watch_time)
