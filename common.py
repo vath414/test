@@ -15,11 +15,13 @@ Gif="gif"        # number of processing cycles per account
 def setup():
     """Create a browser and load cookies for the given account"""
     driver = Driver(uc=True)
-    driver.get("https://youtu.be/8ZCAgTddRE8?si=q7_L8S10LVsSCiqu")
+    driver.get("https://youtu.be/qI5mTOD-or0?si=n-9fzNKvLdTYJgAG")
     time.sleep(2)
     return driver
 def test(driver):
-    time.sleep(100)
+    watch=[720,876,902,945,978,1020,1050,1110,1200,1230,1300,1400,1500,1600]
+    watch_time=random.choice(watch)
+    time.sleep(watch_time)
 
 # ===== Smooth Scrolling =====
 def smooth_scroll(driver, duration=RUN_TIME, step=SCROLL_SPEED):
