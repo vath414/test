@@ -19,7 +19,7 @@ def setup():
     time.sleep(2)
     return driver
 def test(driver):
-    watch=[10,20,30,40,50,60]
+    watch=[50,60]
     watch_time=random.choice(watch)
     print(f"⏱️ Watching video for {watch_time} seconds...")
     time.sleep(watch_time)
